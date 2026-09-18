@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça o projeto acadêmico SafePE e saiba como entrar em contato conosco.">
+    <title>Sobre e Contato | SafePE</title>
+    <link rel="icon" type="image/svg+xml" href="../img/icone.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../img/logo.svg" alt="Logo SafePE" class="imagem-logo">
+            </a>
+        </div>
+        
+        <button id="menu-btn" class="menu-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu">
+                <path d="M4 5h16"/>
+                <path d="M4 12h16"/>
+                <path d="M4 19h16"/>
+            </svg>
+            Menu
+        </button>
+
+        <nav id="nav-menu" class="nav-menu">
+            <button id="close-btn" class="close-btn">✕ Fechar</button>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="#sobre">Sobre o Projeto</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="denuncia.html" class="btn-primary">Guia para Denunciar</a></li>
+                <div class="nav-indicator"></div>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SEÇÃO: SOBRE O PROJETO -->
+    <section id="sobre" class="hero-sobre">
+        <div class="container">
+            <h1 class="titulo-padrao">Sobre o Projeto</h1>
+            <div class="sobre-texto">
+                <p>O <strong>SafePE</strong> nasceu como um projeto de extensão acadêmica focado em democratizar o acesso à informação sobre segurança digital para os moradores da Região Metropolitana do Recife (RMR).</p>
+                <p>Através de pesquisas com a comunidade local, identificamos que a maioria das vítimas de fraudes online (como golpes do PIX, clonagem de WhatsApp e e-mails falsos) enfrenta grandes dificuldades para encontrar informações claras sobre como proceder e onde buscar ajuda oficial.</p>
+                <p>Nosso propósito é simplificar esse processo. Desenvolvido por Eduarda Andrade, o projeto traduz a burocracia em guias visuais e diretos, auxiliando o cidadão a reunir provas corretamente e a acionar a Polícia Civil de Pernambuco (PC-PE) através dos canais adequados.</p>
+                <p><strong>Acreditamos que a informação é a melhor ferramenta contra o cibercrime.</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO: CONTATO -->
+    <section id="contato" class="contato bg-gray">
+        <div class="container">
+            <h2 class="titulo-padrao">Fale Conosco</h2>
+            <p class="text-center subtitle">Tem dúvidas sobre o projeto, sugestões ou gostaria de compartilhar seu relato?<br class="desktop-break"> Preencha o formulário abaixo e entraremos em contato.</p>
+
+            <div class="contato-container">
+                <div class="warning-box warning-contato">
+                    <!-- Ícone de Alerta -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256" fill="currentColor">
+                    <path d="M236.8,188.09,149.35,36.22h0a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.35,24.35,0,0,0,40.55,224h174.9a24.35,24.35,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM120,104a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm8,88a12,12,0,1,1,12-12A12,12,0,0,1,128,192Z"/>
+                    </svg>
+                    <p><strong>Atenção:</strong> Este é um projeto acadêmico educativo. Nós não somos um órgão policial e <strong>não registramos Boletins de Ocorrência</strong>. Para denunciar crimes, <a href="denuncia.html" class="link-destaque">acesse nosso guia</a>.</p>
+                </div>
+
+                <form class="form-contato" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Como podemos ajudar?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary btn-full">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>Projeto de extensão acadêmica <span class="divisor-rodape">|</span> <br class="mobile-break"> © 2026 Eduarda Andrade</p>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>
