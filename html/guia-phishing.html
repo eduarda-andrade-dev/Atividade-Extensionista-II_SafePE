@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aprenda a identificar links falsos, e-mails de phishing e mensagens de SMS perigosas.">
+    <title>Links e E-mails Falsos (Phishing) - SafePE</title>
+    <link rel="icon" type="image/svg+xml" href="../img/icone.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../img/logo.svg" alt="Logo SafePE" class="imagem-logo">
+            </a>
+        </div>
+        
+        <button id="menu-btn" class="menu-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu">
+                <path d="M4 5h16"/>
+                <path d="M4 12h16"/>
+                <path d="M4 19h16"/>
+            </svg>
+            Menu
+        </button>
+
+        <nav id="nav-menu" class="nav-menu">
+            <button id="close-btn" class="close-btn">✕ Fechar</button>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="sobre.html#sobre">Sobre o Projeto</a></li>
+                <li><a href="sobre.html#contato">Contato</a></li>
+                <li><a href="denuncia.html" class="btn-primary">Guia para Denunciar</a></li>
+                <div class="nav-indicator"></div>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO: TÍTULO DO GUIA -->
+    <section class="hero-guia-phishing">
+        <div class="container">
+            <h1>Links e E-mails Falsos<br class="desktop-break"> (Phishing)</h1>
+            <p class="subtitle">Descubra como identificar mensagens, SMS e sites perigosos<br class="desktop-break"> criados para roubar suas senhas e dados pessoais.</p>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE AVISO -->
+    <section class="secao-aviso bg-gray">
+        <div class="container">
+            <div class="warning-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256" fill="currentColor">
+                <path d="M236.8,188.09,149.35,36.22h0a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.35,24.35,0,0,0,40.55,224h174.9a24.35,24.35,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM120,104a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm8,88a12,12,0,1,1,12-12A12,12,0,0,1,128,192Z"/>
+                </svg>
+                <p>Os sites falsos de phishing são cópias perfeitas de páginas de bancos, lojas e órgãos públicos. Eles existem apenas para capturar o que você digita!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 1: OS GOLPES MAIS COMUNS -->
+    <section class="secao-padrao bg-white">
+        <div class="container">
+            <h2 class="titulo-padrao">Como o Phishing se Disfarça</h2>
+            
+            <div class="dicas-grid mt-50">
+                <div class="dica-item-img">
+                    <img src="../img/img_phishing2.jpg" loading="lazy">
+                    <h4>SMS de Bancos ou Correios</h4>
+                    <p>Mensagens no celular informando que sua encomenda ficou retida ou que sua conta bancária possui uma pendência, acompanhadas de um link encurtado.</p>
+                </div>
+                <div class="dica-item-img">
+                    <img src="../img/img_phishing3.webp" loading="lazy">
+                    <h4>E-mails de Cobrança Falsos</h4>
+                    <p>Faturas e boletos falsos enviados por e-mail simulando grandes empresas, induzindo você a baixar um arquivo malicioso ou pagar para contas de laranjas.</p>
+                </div>
+                <div class="dica-item-img">
+                    <img src="../img/img_phishing4.png" loading="lazy">
+                    <h4>Falsas Promoções e Vagas</h4>
+                    <p>Anúncios em redes sociais com ofertas imperdíveis ou falsas vagas de emprego que direcionam para páginas idênticas às de grandes varejistas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 2: COMO SE PROTEGER -->
+    <section class="secao-padrao bg-gray">
+        <div class="container">
+            <h2 class="titulo-padrao">Como Identificar e Evitar</h2>
+            
+            <div class="dicas-grid mt-50">
+                <div class="dica-item bg-white">
+                    <span class="dica-numero">1</span>
+                    <h4>Verifique o Endereço (URL)</h4>
+                    <p>Sempre olhe com atenção para o link antes de digitar seus dados. Golpistas usam letras trocadas ou domínios estranhos (ex: .com.br/suporte).</p>
+                </div>
+                <div class="dica-item bg-white">
+                    <span class="dica-numero">2</span>
+                    <h4>Abra o Aplicativo Oficial</h4>
+                    <p>Recebeu um SMS do seu banco? Não clique no link. Feche a mensagem e abra diretamente o aplicativo oficial do banco no seu celular para conferir.</p>
+                </div>
+                <div class="dica-item bg-white">
+                    <span class="dica-numero">3</span>
+                    <h4>Desconfie de Ofertas Fáceis</h4>
+                    <p>Se um produto custa muito abaixo do mercado ou se o prêmio exige que você pague um "frete" via PIX para retirar, desconfie imediatamente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 3: E AGORA? -->
+    <section class="secao-padrao bg-white">
+        <div class="container text-center">
+            <h2 class="titulo-padrao">Cliquei em um link falso. E agora?</h2>
+            
+            <div class="texto-centralizado">
+                <p>Se você preencheu seus dados ou senhas em uma página suspeita, mude imediatamente as suas senhas de acesso utilizando um dispositivo seguro, avise seu banco caso dados financeiros tenham sido expostos e faça uma varredura antivírus no aparelho.</p>
+            </div>
+            
+            <a href="denuncia.html" class="btn-dark">Ver o Guia de Denúncia Passo a Passo</a>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>Projeto de extensão acadêmica <span class="divisor-rodape">|</span> <br class="mobile-break"> © 2026 Eduarda Andrade</p>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>
